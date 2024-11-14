@@ -1,0 +1,48 @@
+.icon {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.5rem;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.close-icon {
+    color: var(--white);
+}
+
+.sidebar-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 80px);
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.sidebar-menu-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.sidebar-menu-link:hover {
+    color: #000d1a;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .sidebar-menu {
+        grid-template-rows: repeat(6, 60px);
+    }
+}
