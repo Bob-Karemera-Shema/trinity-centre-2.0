@@ -23,7 +23,8 @@ export const baristaSection = {
     reverse: true,
     path: '/trinity-baristas',
     inscope: true,
-    label: 'Learn More'
+    label: 'Learn More',
+    aria: 'Trinity Baristas Page'
 };
 
 export const conferenceSection = {
@@ -34,7 +35,8 @@ export const conferenceSection = {
     reverse: false,
     path: '/waterside-suite',
     inscope: true,
-    label: 'Learn More'
+    label: 'Learn More',
+    aria: 'Waterside Suite Page'
 };
 
 export const scienceSection = {
@@ -45,7 +47,8 @@ export const scienceSection = {
     reverse: true,
     path: '/cambridge-science-centre',
     inscope: true,
-    label: 'Learn More'
+    label: 'Learn More',
+    aria: 'Cambridge Science Centre Page'
 };
 
 export const gymSection = {
@@ -56,7 +59,8 @@ export const gymSection = {
     reverse: false,
     path: 'https://revolutionhealthfitness.co.uk/',
     inscope: false,
-    label: 'Learn More'
+    label: 'Learn More',
+    aria: 'Revolution Gym Website'
 };
 
 export const barberSection = {
@@ -67,5 +71,6 @@ export const barberSection = {
     reverse: true,
     path: '/park-barbers',
     inscope: true,
-    label: 'Learn More'
+    label: 'Learn More',
+    aria: 'Park Barbers Page'
 };

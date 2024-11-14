@@ -12,7 +12,8 @@ export const descSection = {
     reverse: false,
     path: '/conferencemenu.pdf',
     inscope: false,
-    label: 'Catering Menu'
+    label: 'Catering Menu',
+    aria: 'Waterside Suite Catering Menu file'
 };
 
 export const facilitiesSection = {

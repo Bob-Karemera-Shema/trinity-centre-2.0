@@ -12,7 +12,8 @@ export const descSection = {
     reverse: false,
     path: 'https://order.oolio.io/revolutionhealthfitness',
     inscope: false,
-    label: 'Place Order'
+    label: 'Place Order',
+    aria: 'Online Ordering Platform'
 };
 
 export const lunchSection = {
@@ -26,7 +27,8 @@ export const lunchSection = {
     reverse: true,
     path: '/baristasmenu.pdf',
     inscope: false,
-    label: 'Menu'
+    label: 'Menu',
+    aria: 'Trinity Baristas Menu File'
 };
 
 export const openingSection = {

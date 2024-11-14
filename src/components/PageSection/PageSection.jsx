@@ -57,8 +57,8 @@ export default function PageSection({ section }) {
                     {section.parFour && <p>{section.parFour}</p>}
                     {section.parFive && <p>{section.parFive}</p>}
                     {section.path && (section.inscope ?
-                        <Link to={section.path} className='button' style={{ maxWidth: "160px" }}>{section.label}</Link> :
-                        <a href={section.path} className='button' style={{ maxWidth: "160px" }} rel="noopener noreferrer" target="_blank">{section.label}</a>
+                        <Link to={section.path} className='button' style={{ maxWidth: "160px" }} aria-label={section.aria}>{section.label}</Link> :
+                        <a href={section.path} className='button' style={{ maxWidth: "160px" }} rel="noopener noreferrer" target="_blank" aria-label={section.aria}>{section.label}</a>
                     )}
                 </ColumnLeft>
                 <ColumnRight reverse={section.reverse}>

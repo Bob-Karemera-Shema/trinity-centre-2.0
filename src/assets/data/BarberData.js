@@ -10,7 +10,8 @@ export const descSection = {
     reverse: false,
     path: 'https://booksy.com/en-gb/48267_park-barbers_barber_148251_cambridge',
     inscope: false,
-    label: 'Book Now'
+    label: 'Book Now',
+    aria: 'Park Barbers Booksy Page'
 };
 
 export const openingSection = {

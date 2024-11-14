@@ -43,15 +43,15 @@ export default function Navbar() {
 
     return (
         <nav style={style}>
-            <Link className="logo" to="/">THE TRINITY CENTRE</Link>
+            <Link className="logo" to="/" aria-label="Home Page">THE TRINITY CENTRE</Link>
             <IoMdMenu className="menu-bars" onClick={toggle} />
             <div className="nav-menu">
-                <Link to="/" className="nav-menu-link">Home</Link>
-                <Link to="/trinity-baristas" className="nav-menu-link">Trinity Baristas</Link>
-                <Link to="/waterside-suite" className="nav-menu-link">Waterside Suite</Link>
-                <Link to="/cambridge-science-centre" className="nav-menu-link">Cambridge Science Centre</Link>
-                <Link to="/park-barbers" className="nav-menu-link">Park Barbers</Link>
-                <a href="https://www.revolutionhealthfitness.co.uk/" rel="noopener noreferrer" target="_blank" className="nav-menu-link">Revolution Gym</a>
+                <Link to="/" className="nav-menu-link" aria-label="Home Page">Home</Link>
+                <Link to="/trinity-baristas" className="nav-menu-link" aria-label="Trinity Baristas Page">Trinity Baristas</Link>
+                <Link to="/waterside-suite" className="nav-menu-link" aria-label="Waterside Suite Page">Waterside Suite</Link>
+                <Link to="/cambridge-science-centre" className="nav-menu-link" aria-label="Cambridge Science Centre Page">Cambridge Science Centre</Link>
+                <Link to="/park-barbers" className="nav-menu-link" aria-label="Park Barbers Page">Park Barbers</Link>
+                <a href="https://www.revolutionhealthfitness.co.uk/" rel="noopener noreferrer" target="_blank" className="nav-menu-link" aria-label="Revolution Gym Website">Revolution Gym</a>
             </div>
             <div className="nav-btn">
                 <LinkR to="contact" spy={true} smooth={true} offset={50} duration={500} className="button">Contact Us</LinkR>

@@ -23,9 +23,9 @@ export default function Footer() {
                 </div>
                 <div className="footer-bottom">
                     <div className="social-icons">
-                        <a href="https://www.facebook.com/Trinity-Centre-Cambridge-888286111220729/" rel="noopener noreferrer" target="_blank" className='social-icon'><FaFacebookF /></a>
-                        <a href="https://www.linkedin.com/company-beta/11092100/" rel="noopener noreferrer" target="_blank" className='social-icon'><FaLinkedinIn /></a>
-                        <a href="https://www.instagram.com/trinitycentrecambridge?igsh=aWYyaTBlNzB1eHJw" rel="noopener noreferrer" target="_blank" className='social-icon'><FaInstagram /></a>
+                        <a href="https://www.facebook.com/Trinity-Centre-Cambridge-888286111220729/" rel="noopener noreferrer" target="_blank" className='social-icon' aria-label='Facebook Page'><FaFacebookF /></a>
+                        <a href="https://www.linkedin.com/company-beta/11092100/" rel="noopener noreferrer" target="_blank" className='social-icon' aria-label='LinkedIn Page'><FaLinkedinIn /></a>
+                        <a href="https://www.instagram.com/trinitycentrecambridge?igsh=aWYyaTBlNzB1eHJw" rel="noopener noreferrer" target="_blank" className='social-icon' aria-label='Instagram Page'><FaInstagram /></a>
                     </div>
                 </div>
             </div>

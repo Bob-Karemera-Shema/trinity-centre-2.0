@@ -12,7 +12,7 @@ export const homeSlides = [
         title: 'Welcome',
         subTitle: 'The ideal venue for conferences, exhibitions, training courses, networking events and social gatherings',
         image: Trinity,
-        alt: 'building'
+        alt: 'Trinity building'
     },
     {
         title: 'Trinity Baristas',
@@ -21,7 +21,8 @@ export const homeSlides = [
         inscope: true,
         label: 'Learn More',
         image: Baristas,
-        alt: 'restaurant'
+        alt: 'Trinity Baristas restaurant',
+        aria: 'Trinity Baristas Page'
     },
     {
         title: 'Waterside Suite',
@@ -30,7 +31,8 @@ export const homeSlides = [
         inscope: true,
         label: 'Learn More',
         image: Waterside1,
-        alt: 'room'
+        alt: 'Conference room',
+        aria: 'Waterside Suite Page'
     },
     {
         title: 'Cambridge Science Centre',
@@ -39,16 +41,8 @@ export const homeSlides = [
         inscope: false,
         label: 'Learn More',
         image: Science,
-        alt: 'Father and son'
-    },
-    {
-        title: 'Revolution Health & Fitness Club',
-        subTitle: 'Join today and acheive your health and fitness goals',
-        path: 'https://www.revolutionhealthfitness.co.uk/',
-        inscope: false,
-        label: 'Learn More',
-        image: Revolution,
-        alt: 'gym'
+        alt: 'Father and son',
+        aria: 'Cambridge Science Centre Page'
     },
     {
         title: 'Park Barbers',
@@ -57,7 +51,18 @@ export const homeSlides = [
         inscope: true,
         label: 'Learn More',
         image: Barbers1,
-        alt: 'barbers'
+        alt: 'Park Barbers',
+        aria: 'Park Barbers Page'
+    },
+    {
+        title: 'Revolution Health & Fitness Club',
+        subTitle: 'Join today and acheive your health and fitness goals',
+        path: 'https://www.revolutionhealthfitness.co.uk/',
+        inscope: false,
+        label: 'Learn More',
+        image: Revolution,
+        alt: 'Revolution Health & Fitness Club',
+        aria: 'Revolution Health & Fitness Club Website'
     }
 ];
 
@@ -69,7 +74,8 @@ export const baristaSlides = [
         inscope: false,
         label: 'Place Order',
         image: Baristas,
-        alt: 'restaurant'
+        alt: 'Trinity baristas restaurant',
+        aria: 'Online Ordering Platform'
     },
 ];
 
@@ -79,14 +85,14 @@ export const conferenceSlides = [
         subTitle: 'From £250 + VAT',
         capacity: 'Max Capacity: 40 attendees',
         image: Waterside1,
-        alt: 'room'
+        alt: 'Conference room'
     },
     {
         title: 'Waterside Suite',
         subTitle: 'From £250 + VAT',
         capacity: 'Max Capacity: 40 attendees',
         image: Waterside2,
-        alt: 'room'
+        alt: 'Conference room'
     }
 ];
 
@@ -98,7 +104,8 @@ export const scienceSlides = [
         inscope: false,
         label: 'Learn More',
         image: Science,
-        alt: 'restaurant'
+        alt: 'Cambridge Science Center',
+        aria: 'Cambridge Science Center Website'
     },
 ];
 
@@ -110,7 +117,8 @@ export const barberSlides = [
         inscope: false,
         label: 'Book Now',
         image: Barbers1,
-        alt: 'room'
+        alt: 'Charlie and Tony',
+        aria: 'Park Barbers Booksy Page'
     },
     {
         title: 'Park Barbers',
@@ -119,6 +127,7 @@ export const barberSlides = [
         inscope: false,
         label: 'Book Now',
         image: Barbers2,
-        alt: 'room'
+        alt: 'Park Barbers',
+        aria: 'Park Barbers Booksy Page'
     }
 ];
