@@ -25,7 +25,7 @@ export const lunchSection = {
     image: baristas2,
     alt: 'dessert',
     reverse: true,
-    path: '/baristasmenu.pdf',
+    path: '/cafemenu.pdf',
     inscope: false,
     label: 'Menu',
     aria: 'Trinity Baristas Menu File'
