@@ -4,6 +4,7 @@ import conferenceRoom from '../images/conferencing.jpg';
 import gym from '../images/revolution.jpg';
 import barbers from '../images/barbers1.jpg';
 import science from '../images/science.jpg';
+import bttCambridge from "../images/btt-cambridge.jpg";
 
 export const aboutSection = {
     heading: 'About The Complex',
@@ -73,4 +74,18 @@ export const barberSection = {
     inscope: true,
     label: 'Learn More',
     aria: 'Park Barbers Page'
+};
+
+export const bttSection = {
+    heading: 'BTT Cambridge',
+    parOne: "Brazilian Jiu-Jitsu martial arts in a friendly, supportive environment. Join us at BTT Cambridge for adults (Gi & No-Gi) and kids classes.",
+    parTwo: "Morning | Lunchtime | Evening",
+    parThree: "Beginner-friendly sessions available. Try a free trial class or learn more at bttcambridge.com",
+    image: bttCambridge,
+    alt: 'btt cambridge',
+    reverse: false,
+    path: 'https://bttcambridge.com/',
+    inscope: false,
+    label: 'Learn More',
+    aria: 'BTT Cambridge Website'
 };
