@@ -18,8 +18,8 @@ export const descSection = {
 
 export const familySection = {
     heading: 'Opening Times - Families and Public',
-    parOne: "Saturday-Sunday (Term Times): 10:00 – 16:00",
-    parTwo: "Monday-Sunday (School Holidays): 08:30 – 10:30",
+    parOne: "Saturday-Sunday (Term Times): 09:00 – 16:00",
+    parTwo: "Monday-Sunday (School Holidays): 09:00 – 16:00",
     image: science2,
     alt: 'children science experiment',
     reverse: true
