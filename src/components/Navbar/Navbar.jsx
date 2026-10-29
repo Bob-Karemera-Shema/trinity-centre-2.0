@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link as LinkR } from "react-scroll";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router";
 import { IoMdMenu } from "react-icons/io";
 import { useDispatch, useSelector } from 'react-redux';
 import { setOpen } from '../../redux/actions';

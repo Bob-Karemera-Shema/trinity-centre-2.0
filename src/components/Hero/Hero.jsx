@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { IoArrowForward, IoArrowBack } from "react-icons/io5";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import './Hero.css';
 
 export default function Hero({ slides }) {

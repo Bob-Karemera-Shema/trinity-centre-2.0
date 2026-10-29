@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { Link as LinkR } from "react-scroll";
 import { useDispatch, useSelector } from 'react-redux';
 import { setOpen } from '../../redux/actions';

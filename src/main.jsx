@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 import { openSidebar } from './redux/reducers';
